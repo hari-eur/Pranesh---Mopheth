@@ -13,7 +13,7 @@ int main(){
 	else
 	{
 		fprintf(fptr,"my name is praneshkumar"); //fprintf(STDERR, "My name is PraneshKumar");
-		printf("Data written successfully\n");
+		printf("Data written successfully\n"); //Dmesg command, Check thisout
 	}
 	fclose(fptr);
 	return 0;
