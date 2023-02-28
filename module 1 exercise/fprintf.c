@@ -12,7 +12,7 @@ int main(){
 		printf("Unable to open the file");
 	else
 	{
-		fprintf(fptr,"my name is praneshkumar");
+		fprintf(fptr,"my name is praneshkumar"); //fprintf(STDERR, "My name is PraneshKumar");
 		printf("Data written successfully\n");
 	}
 	fclose(fptr);
