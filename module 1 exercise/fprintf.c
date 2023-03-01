@@ -7,6 +7,8 @@ int main(){
 	FILE *fptr;
 
 	fptr=fopen("hello.txt","w");
+	fprintf(stderr," hello pranesh \n"); 
+	//fprintf(stdout," hello pranesh \n");
 
 	if (fptr==NULL)
 		printf("Unable to open the file");
