@@ -6,7 +6,7 @@
 
 
 
-int p1(){
+void p1(){
 
 	int i,j;
 	printf("\nPattern 1\n\n");
@@ -15,8 +15,7 @@ int p1(){
 			printf("%d",j);
 		}
 	printf("\n");
-	}
-	return 0;	
+	}	
 }
 int p2(){
 
@@ -195,21 +194,21 @@ int p12(){
 
 
 int main(){
-	int a,b,c,d,e,f,g,h,i,j,k,l,n;
+	int a,n;
 	printf("enter the value of n :");
 	scanf("%d",&n);
 	printf("\n");
-	a=p1();
-	b=p2(); //a=p2();
-	c=p3(); //a=p3();
-	d=p4(); //a=p4();
-	e=p5(); //a=p5();
-	f=p6(); //a=p6();
-	g=p7(); //a=p7();
-	h=p8(); //a=p8();
-	i=p9(); //a=p9();
-	j=p10(); //a=p10();
-	k=p11(); //a=p11();
-        l=p12(); //a=p12();
+	p1();
+	a=p2(); //a=p2();
+	a=p3(); //a=p3();
+	a=p4(); //a=p4();
+	a=p5(); //a=p5();
+	a=p6(); //a=p6();
+	a=p7(); //a=p7();
+	a=p8(); //a=p8();
+	a=p9(); //a=p9();
+	a=p10(); //a=p10();
+	a=p11(); //a=p11();
+        a=p12(); //a=p12();
 	return 0;
 }
